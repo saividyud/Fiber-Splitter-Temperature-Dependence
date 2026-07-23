@@ -1,10 +1,10 @@
-adafruit-blinka==9.1.0
+adafruit-blinka==8.20.1
 adafruit-circuitpython-bme280==2.6.32
-adafruit-circuitpython-busdevice==5.2.17
+adafruit-circuitpython-busdevice==5.2.6
 adafruit-circuitpython-connectionmanager==3.1.8
 adafruit-circuitpython-requests==4.1.17
-adafruit-circuitpython-typing==1.10.2
-adafruit-platformdetect==3.89.1
+adafruit-circuitpython-typing==1.9.5
+adafruit-platformdetect==3.50.0
 Adafruit-PureIO==1.1.11
 binho-host-adapter==0.1.6
 numpy==1.21.6
