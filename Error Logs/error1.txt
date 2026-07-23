@@ -1,0 +1,14 @@
+>>> %Run test.py
+Traceback (most recent call last):
+  File "/home/pi/Documents/GitHub/Fiber-Splitter-Temperature-Dependence/test.py", line 8, in <module>
+    bme280 = adafruit_bme280.Adafruit_BME280_I2C(i2c)
+  File "/home/pi/Documents/GitHub/Fiber-Splitter-Temperature-Dependence/.venv/lib/python3.7/site-packages/adafruit_bme280/basic.py", line 363, in __init__
+    super().__init__(I2C_Impl(i2c, address))
+  File "/home/pi/Documents/GitHub/Fiber-Splitter-Temperature-Dependence/.venv/lib/python3.7/site-packages/adafruit_bme280/protocol.py", line 14, in __init__
+    from adafruit_bus_device import (  # noqa: PLC0415
+  File "/home/pi/Documents/GitHub/Fiber-Splitter-Temperature-Dependence/.venv/lib/python3.7/site-packages/adafruit_bus_device/i2c_device.py", line 18, in <module>
+    from circuitpython_typing import ReadableBuffer, WriteableBuffer
+  File "/home/pi/Documents/GitHub/Fiber-Splitter-Temperature-Dependence/.venv/lib/python3.7/site-packages/circuitpython_typing/__init__.py", line 79
+    def read(self, count: Optional[int] = None, /) -> Optional[bytes]:
+                                                ^
+SyntaxError: invalid syntax
